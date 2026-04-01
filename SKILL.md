@@ -100,3 +100,29 @@ Read these files when needed:
 - `references/peter-closeout.md` — deploy, live verification, indexability, and closure rules
 - `references/gsc-indexing.md` — Search Console submission and indexing-status workflow
 - `references/receipt-contracts.md` — receipt expectations and truth states
+
+## Prerequisites
+
+This skill is a workflow guide, not a standalone tool. It assumes you already have:
+
+### Deployment
+- A deployment pipeline for your site (e.g. Vercel, Netlify, Cloudflare Pages, or a custom CI/CD setup)
+- SSH or CLI access to trigger deploys
+- A working sitemap generator (e.g. Next.js `sitemap.ts`, or equivalent)
+
+### Google Search Console
+- A verified GSC property for your domain (`sc-domain:` or URL-prefix)
+- Google Cloud project with the **Indexing API** and **Search Console API** enabled
+- A service account JSON key with GSC permissions, or OAuth credentials
+- `googleapis` npm package or `gcloud` CLI available in your environment
+
+### Content pipeline
+- A content source directory or CMS where drafts are stored
+- A safe-template normalization script or convention (this skill describes the contract, not the implementation)
+
+### Optional but recommended
+- Tavily or web search tool for Hunter research recovery
+- A receipt/artifact directory convention (e.g. `mission-control/data/`)
+
+### No credentials are bundled
+This skill does not ship any API keys, service accounts, or deployment configs. All credentials must be configured in your own environment before use.
