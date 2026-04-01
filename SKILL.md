@@ -1,6 +1,6 @@
 ---
 name: openclaw-seo-content-writer
-description: OpenClaw SEO Content Writer: EN=run a Tony + Peter SEO blog pipeline for drafting, safe-template QA, source publish, deploy verification, and Google Search Console submission/index tracking; 中文=运行 Tony + Peter 的 SEO 博客生产链路，覆盖草稿生成、安全模板质检、发布、部署验证，以及 Google Search Console 提交与收录跟踪。 日本語=Tony と Peter の分業で SEO ブログ制作パイプラインを実行し、下書き、セーフテンプレートQA、公開、デプロイ検証、Google Search Console 送信とインデックス追跡まで行う。 한국어=Tony + Peter SEO 블로그 운영 파이프라인으로 초안 작성, 안전 템플릿 QA, 발행, 배포 검증, Google Search Console 제출 및 색인 추적까지 수행. Español=ejecuta un pipeline SEO de blogs con Tony + Peter para borradores, QA con plantilla segura, publicación, verificación en producción y envío/seguimiento en Google Search Console.
+description: Write and ship SEO blog posts with Tony + Peter workflow, publish QA, deploy verification, and GSC indexing. SEO博客写作/发布/部署/谷歌收录
 ---
 
 # OpenClaw SEO Content Writer
